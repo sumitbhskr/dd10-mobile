@@ -30,3 +30,6 @@ export async function fetchFacts(date: string, lang: 'en' | 'hi' = 'en'): Promis
     content: item.content ?? '',
   }));
 }
+
+
+
